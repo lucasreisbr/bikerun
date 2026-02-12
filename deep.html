@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Luiz Silva - Pesquisa Esportiva USP</title>
+    
+    <!-- Tailwind CSS 4.1 via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts - Poppins Black & Regular -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" rel="stylesheet">
+    
+    <!-- Configuração Tailwind 4.1 com Poppins -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif'],
+                    },
+                    fontWeight: {
+                        'black': '900',
+                        'regular': '400',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        /* Fallback e ajustes finos */
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .font-poppins-black {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 900;
+        }
+        .font-poppins-regular {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+        }
+        /* Ajuste de line-height para Poppins */
+        h1, h2, h3, p {
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-poppins antialiased">
+
+    <!-- Container principal - Totalmente responsivo -->
+    <main class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16">
+        
+        <!-- Cabeçalho / Perfil do pesquisador -->
+        <header class="mb-10 sm:mb-12 lg:mb-16">
+            <div class="border-b-2 border-gray-200 pb-6 sm:pb-8">
+                <h1 class="font-poppins-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 tracking-tight leading-tight">
+                    Luiz Silva Pesquisador
+                </h1>
+                <p class="font-poppins-regular text-base sm:text-lg md:text-xl text-gray-600 mt-1 sm:mt-2">
+                    Pós doutorando | USP
+                </p>
+            </div>
+        </header>
+
+        <!-- Título da pesquisa -->
+        <section class="mb-10 sm:mb-12 lg:mb-16">
+            <h2 class="font-poppins-black text-xl sm:text-2xl md:text-3xl lg:text-4xl text-gray-900 max-w-4xl leading-tight">
+                Qual o consumo de ciclistas e corredores de rua?
+            </h2>
+        </section>
+
+        <!-- Divisor responsivo -->
+        <hr class="border-t-2 border-gray-200 my-8 sm:my-10 lg:my-12">
+
+        <!-- Seção: Sobre a pesquisa -->
+        <section class="mb-10 sm:mb-12 lg:mb-16">
+            <h3 class="font-poppins-black text-lg sm:text-xl md:text-2xl text-gray-900 mb-4 sm:mb-6">
+                Sobre a pesquisa
+            </h3>
+            
+            <!-- Container de texto com melhor legibilidade -->
+            <div class="bg-white rounded-xl p-5 sm:p-6 lg:p-8 border border-gray-100 shadow-sm">
+                <div class="space-y-4">
+                    <p class="font-poppins-regular text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Integer scelerisque, dui quis posuere mollis, metus justo 
+                        elementum tellus, vel sagittis orci mauris ac mauris. Morbi 
+                        ac libero posuere, accumsan nunc vitae, lobortis ipsum. 
+                        Morbi ipsum lorem, sodales sit amet nibh quis, auctor 
+                        tempor mauris.
+                    </p>
+                    <p class="font-poppins-regular text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
+                        Pellentesque cursus enim ac dolor 
+                        egestas faucibus. Phasellus erat ligula, sagittis eu mi at, 
+                        tincidunt ultricies libero. Nunc diam magna, commodo id 
+                        facilisis nec, sollicitudin vel lectus. Cras pharetra imperdiet 
+                        arcu at consequat. Donec in viverra elit. Praesent magna 
+                        nisl.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Botão participar - Totalmente responsivo -->
+            <div class="mt-6 sm:mt-8 lg:mt-10">
+                <a 
+                    href="#" 
+                    class="font-poppins-regular inline-flex items-center justify-center sm:justify-start w-full sm:w-auto px-5 sm:px-6 py-3 sm:py-3.5 bg-blue-600 hover:bg-blue-700 text-white text-sm sm:text-base font-medium rounded-lg transition-all duration-200 shadow-sm hover:shadow-md hover:-translate-y-0.5"
+                >
+                    Participe da pesquisa
+                    <svg class="w-4 h-4 sm:w-5 sm:h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <!-- Divisor responsivo -->
+        <hr class="border-t-2 border-gray-200 my-8 sm:my-10 lg:my-12">
+
+        <!-- Seção: Sobre o pesquisador -->
+        <section class="mb-10 sm:mb-12 lg:mb-16">
+            <h3 class="font-poppins-black text-lg sm:text-xl md:text-2xl text-gray-900 mb-4 sm:mb-6">
+                Sobre o pesquisador
+            </h3>
+            
+            <!-- Currículo / Formação - Card responsivo -->
+            <div class="bg-white rounded-xl p-5 sm:p-6 lg:p-8 border border-gray-100 shadow-sm">
+                <div class="prose max-w-none">
+                    <p class="font-poppins-regular text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
+                        <span class="font-poppins-black text-gray-900">Pós Doutorando</span> EEFE-USP – Laboratório de Gestão, Políticas, Marketing e 
+                        Comunicação em Esportes e Educação Física (LAGECOM - 2025) – 
+                        <span class="font-poppins-black text-gray-900">Doutor em Administração</span> – UNINOVE - PPGA – Programa de Pós Graduação em 
+                        Administração – (2017-2021)– 
+                        <span class="font-poppins-black text-gray-900">Mestre em Administração</span> – UNINOVE-PPGA-GE – 
+                        Programa de Pós Graduação em Administração – Gestão do Esporte (2015-2016)– 
+                        <span class="font-poppins-black text-gray-900">Especialização em Estatística Aplicada</span> – FMU Faculdades Metropolitanas Unidas 
+                        (2016)– 
+                        <span class="font-poppins-black text-gray-900">Especialização em Administração de Serviços</span> – Escola Politécnica POLI- 
+                        USP – (2011)– 
+                        <span class="font-poppins-black text-gray-900">Especialização em Gestão Mercadológica para o Turismo</span> – Escola 
+                        de Comunicação e Artes ECA-USP – (2008)– 
+                        <span class="font-poppins-black text-gray-900">Graduação em Estatística</span> – Centro 
+                        Universitário UNICAPITAL – SP (2001)– 
+                        <span class="font-poppins-black text-gray-900">Graduação em Ciências Econômicas</span> 
+                        Faculdade Integradas de Fátima do Sul – Mato Grosso do Sul MS – (1996)
+                    </p>
+                </div>
+            </div>
+
+            <!-- Botão contato - Totalmente responsivo -->
+            <div class="mt-6 sm:mt-8 lg:mt-10 flex flex-col sm:flex-row gap-4">
+                <a 
+                    href="#" 
+                    class="font-poppins-regular inline-flex items-center justify-center sm:justify-start w-full sm:w-auto px-5 sm:px-6 py-3 sm:py-3.5 bg-gray-800 hover:bg-gray-900 text-white text-sm sm:text-base font-medium rounded-lg transition-all duration-200 shadow-sm hover:shadow-md hover:-translate-y-0.5"
+                >
+                    Fale comigo
+                    <svg class="w-4 h-4 sm:w-5 sm:h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <!-- Rodapé responsivo -->
+        <footer class="border-t-2 border-gray-200 pt-6 sm:pt-8 mt-8 sm:mt-10 lg:mt-12">
+            <p class="font-poppins-regular text-xs sm:text-sm text-gray-500 text-center">
+                © 2025 Luiz Silva - Pesquisa USP. Todos os direitos reservados.
+            </p>
+        </footer>
+
+    </main>
+
+    <!-- Ajuste adicional para mobile -->
+    <style>
+        @media (max-width: 640px) {
+            .container-padding {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            h1, .font-poppins-black {
+                word-break: break-word;
+            }
+        }
+    </style>
+
+</body>
+</html>

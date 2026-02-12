@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+ /* Fallback e ajustes finos */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.font-poppins-black {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+.font-poppins-regular {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+/* Ajuste de line-height para Poppins */
+
+@media (max-width: 640px) {
+    .container-padding {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    h1, .font-poppins-black {
+        word-break: break-word;
+    }
+}
